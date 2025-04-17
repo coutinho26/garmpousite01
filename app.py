@@ -1,4 +1,4 @@
-from flask import Flask, request, redirect
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -20,3 +20,4 @@ def callback():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
