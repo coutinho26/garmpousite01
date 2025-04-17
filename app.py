@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>🚀 Garimpou site online!</h1><p>Acesse /callback para testar o redirecionamento do Mercado Livre.</p>"
+    return "<h1>🚀 Garimpou1 site online!</h1><p>Acesse /callback para testar o redirecionamento do Mercado Livre.</p>"
 
 @app.route("/callback")
 def callback():
